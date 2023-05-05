@@ -1,5 +1,5 @@
 :root {
-    font-family: 'Roboto',sans-serif;
+    font-family:  'Roboto',sans-serif;
 }
 
 body {
@@ -8,6 +8,8 @@ body {
     height: 100vh;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20rem;
+    margin-top: 0rem;
 }
 * {
     box-sizing: border-box;
@@ -16,6 +18,7 @@ body {
 .background {
     display: flex;
     align-items: center;
+    margin-top: 25%;
     height: 700px;
     max-width: 90%;
     border-radius: 1rem;
@@ -27,11 +30,23 @@ body {
     background-image: url(img/beach-img.jpg);
     background-repeat: no-repeat;
     height: 120%;
-    width: 90%;
+    width: 30%;
+    display: flex;
 }
 .logo {
     background: rgba(0, 0, 0, .5);
     display: flex;
+    height: 100px;
+    width: 420px;
+    margin-top: 120px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: Norse;
+    color: white;
+}
+img {
+    height: inherit;
 }
 main {
     height: 100%;
@@ -43,8 +58,62 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 40%;
+    height: 12rem;
     font-weight: 600;
+}
+.form-inputs{
+    background-color: #fff;
+    padding: 5%;
+    box-shadow: 0px 3px 5px -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+legend {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
 
+fieldset {
+    border: none;
+    display: flex;
+    gap: 3rem;
+}
+.inputs-cell {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    width: 40%;
+}
+.inputs-cell label {
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+form input {
+border: 1px solid #d6d9dc;
+border-radius: 3px;
+padding: 8px;
+font-size: 16px;
+}
 
+.form-buttons {
+padding-left: 2.7rem;
+}
+button {
+    background-color: #006c7f;
+    border: none;
+    border-radius: 7px;
+    padding: 20px 45px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.form-buttons a {
+    color:#006c7f ;
+    text-decoration: none;
 }
