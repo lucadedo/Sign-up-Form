@@ -12,6 +12,7 @@
                 <div class="logo">
                     <img src="img/odin-lined.png" alt="the odin project logo">
                     <h1>ODIN</h1>
+                    
                 </div>
             </div>
             <main>
@@ -32,31 +33,32 @@
                         <fieldset>
                             <div class="inputs-cell">
                                 <label for="first_name">First Name</label>
-                                <input type="text" name="first_name" id="first_name">
+                                <input type="text" name="first_name" id="first_name"  pattern="[a-z]{0,12}" placeholder="Your name" required>
                             </div>
                             <div class="inputs-cell">
                                 <label for="last_name">Last Name</label>
-                                <input type="text" name="last_name" id="last_name">
+                                <input type="text" name="last_name" id="last_name" pattern="[a-z]{0,12}" required>
                             </div>
                         </fieldset>
                         <fieldset>
                             <div class="inputs-cell">
                                 <label for="email">Email</label>
-                                <input type="email" name="emial" id="email">
+                                <input type="email" name="emial" id="email" pattern = "([a-zA-Z0-9\\_\\-\\.]+)@([a-zA-Z]+).(.+)"required>
                             </div>
                             <div class="inputs-cell">
                                 <label for="phone_number">Phone Number</label>
-                                <input type="text" name="phone_number" id="phone_number">
+                                <input type="text" name="phone_number" id="phone_number"  pattern="[0-9]{4}"
+                                placeholder="+886">
                             </div>
                         </fieldset>
                         <fieldset>
                             <div class="inputs-cell">
                                 <label for="password">Password</label>
-                                <input type="password" name="password" id="password">
+                                <input type="password" name="password" id="password" minlength="8" required>
                             </div>
                             <div class="inputs-cell">
                                 <label for="confirm_password">Confirm Password</label>
-                                <input type="password" name="confirm_password" id="confirm_password">
+                                <input type="password" name="confirm_password" id="confirm_password" required>
                             </div>
                         </fieldset>
                     </div>
@@ -67,6 +69,7 @@
                             <a href="#">Log in</a>
                         </p>
                     </div>
+                   
 
                 </form>
             </main>
@@ -81,6 +84,6 @@
 
 
 
-
+        <script src="script.js"></script>
     </body>
 </html>
