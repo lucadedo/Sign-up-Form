@@ -98,6 +98,12 @@ border-radius: 3px;
 padding: 8px;
 font-size: 16px;
 }
+input:invalid {
+    border-color: red;
+}
+/* input:valid {
+    border-color: green;
+} */
 
 .form-buttons {
 padding-left: 2.7rem;
