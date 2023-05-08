@@ -7,5 +7,6 @@
 <p>Gained some client-side validation skills ,using JS validation too.</p>
   
 
+<h3>live preview: https://lucadedo.github.io/Sign-up-Form/</h3>
 
 image resource---photo by lalo Hernandez on unsplash
